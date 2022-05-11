@@ -5,7 +5,8 @@
     width: 130x;
     height: 130px;
 }
-body{
-    background-image: 101836.jpg;
+.haikei{
+    background-image: url("2840.jpg");
     background-size: cover;
+
 }
