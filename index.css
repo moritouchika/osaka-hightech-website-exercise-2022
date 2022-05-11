@@ -2,10 +2,16 @@
     border: 1px bashed red;
 }
 .photo1{
-    width: 130x;
+    width: 130px;
     height: 130px;
 }
 body{
-    background-image: url("2840.jpg") ;
+    background-image: url("2840\ \(1\).jpg") ;
     background-size: cover;
+}
+.j1{
+    width: 300px;
+}
+.j2{
+    width: 100;
 }
