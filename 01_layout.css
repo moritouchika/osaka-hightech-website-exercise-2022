@@ -1,9 +1,31 @@
+.wrap{
+    display.flex;
+}
+
 .w{
     border:1px dashed;
     margin-right: 10px;
+}
+.main_w{
+    text-align: center;
+    border:1px dashed;
+    margin-right: 3px;
+    margin-bottom: 3px;
+}
+.main_we{
+    border:1px dashed;
+    text-align: center;
+    margin-bottom: 3px;
 }
 
 .b{
     border:1px dashed;
     margin-top: 15px;
+}
+
+.s{
+    border:1px dashed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
