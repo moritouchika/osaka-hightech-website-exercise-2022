@@ -1,31 +1,72 @@
+.header{
+    height: 10px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: center
+}
+
 .wrap{
     display.flex;
 }
 
-.w{
-    border:1px dashed;
+.sidebar{
+    width: 30%;
+    height: 100%;
     margin-right: 10px;
-}
-.main_w{
-    text-align: center;
-    border:1px dashed;
-    margin-right: 3px;
-    margin-bottom: 3px;
-}
-.main_we{
-    border:1px dashed;
-    text-align: center;
-    margin-bottom: 3px;
+    border: 1px dashed #000000   
 }
 
-.b{
-    border:1px dashed;
-    margin-top: 15px;
+.sidebar-c{
+    border: 1px dashed #000000;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
 }
 
-.s{
-    border:1px dashed;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.main-c{
+    border: 1px dashed #000000;
+    padding: 4px;
+    text-align: center;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.wrap-c{
+    width: 30%;
+    border: 1px dashed #000000;
+    padding: 4px;
+}
+
+.mail{
+    border: 1px dashed #000000;
+    height: 100%;
+}
+
+.mail-c{
+    border: 1px dashed #000000;
+    margin: 4px;
+    padding: 4px;
 }
