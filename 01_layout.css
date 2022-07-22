@@ -22,18 +22,18 @@
 .sidebar{
     width: 30%;
     margin-right: 10px;
-    border: 1px dashed #000000 ;
+    border: 1px dashed ;
 }
 
 .sidebar-c{
-    border: 1px dotted #000000;
+    border: 1px dotted;
     margin: 5px;
     padding: 5px;
     text-align: center;
 }
 
 .main-c{
-    border: 1px dashed #000000;
+    border: 1px dashed ;
     padding: 4px;
     text-align: center;
 }
@@ -54,16 +54,16 @@
 
 .wrap-c{
     width: 30%;
-    border: 1px dashed #000000;
+    border: 1px dashed ;
     padding: 4px;
 }
 
 .mail{
-    border: 1px dashed #000000;
+    border: 1px dashed ;
 }
 
 .mail-c{
-    border: 1px dotted #000000;
+    border: 1px dotted;
     margin: 4px;
     padding: 4px;
 }
