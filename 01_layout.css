@@ -16,7 +16,7 @@
 }
 
 .wrap{
-    display.flex;
+    display: flex;
 }
 
 .sidebar{
@@ -32,17 +32,19 @@
     text-align: center;
 }
 
+.main{
+    text-align: center;
+}
+
 .main-c{
     border: 1px dashed ;
     padding: 4px;
-    text-align: center;
 }
 
 .container-2{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    text-align: center;
 }
 
 .wrap{
