@@ -29,7 +29,6 @@ body{
     width: 30%;
     margin-right: 10px;
     color: white;
-    background: url();
 }
 
 .sidebar-c{
@@ -37,6 +36,7 @@ body{
     padding: 5px;
     text-align: center;
     color: white;
+    background: url(foldericon.png);
 }
 
 .main{
