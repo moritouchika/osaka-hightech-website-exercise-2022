@@ -26,7 +26,7 @@ body{
 }
 
 .sidebar{
-    width: 30%;
+    width: 40%;
     margin-right: 10px;
     color: white;
 }
@@ -38,8 +38,12 @@ body{
     color: white;
 }
 
-.main{
-    text-align: center;
+.serch{
+    border:none;
+    border-radius:10px;
+    box-shadow: none;
+    padding: 2px 8px;
+    background-color: rgb(255, 255, 255,0.7);;
 }
 
 .main-c{
@@ -100,3 +104,16 @@ body{
 .mail-c:hover{
     border: 2px ridge black;
 }
+
+.acd-check{
+    display: none;
+  }
+  .acd-content{
+    height: 0;
+    opacity: 0;
+    transition: .5s;
+  }
+  .acd-check:checked + .acd-label + .acd-content{
+    opacity: 1;
+  }
+  
