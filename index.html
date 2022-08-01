@@ -18,9 +18,15 @@
         <div class="sidebar"><input id="acd-check1" class="acd-check" type="checkbox">
           <label class="acd-label" for="acd-check1"><img src="picture/menuicon.png" width="16px">　　　　　　　</label>
           <div class="acd-content">
-            <div class="sidebar-c"><img src="picture/foldericon.png" width="16px">　受信フォルダ　</div>
-            <div class="sidebar-c"><img src="picture/favoriteicon.png" width="16px">　スター付き　　</div>
-            <div class="sidebar-c"><img src="picture/paperplaneicon.png" width="16px">　送信済みメール</div>
+            <div onclick="obj=document.getElementById('open2').style; obj.display=(obj.display=='none')?'block':'none';">
+             <a style="cursor:pointer;">
+             <div class="sidebar-c"><img src="picture/foldericon.png" width="16px">　受信フォルダ　</div></a></div>
+             <div onclick="obj=document.getElementById('open3').style; obj.display=(obj.display=='none')?'block':'none';">
+             <a style="cursor:pointer;">
+               <div class="sidebar-c"><img src="picture/favoriteicon.png" width="16px">　スター付き　　</div></a></div>
+               <div onclick="obj=document.getElementById('open4').style; obj.display=(obj.display=='none')?'block':'none';">
+             <a style="cursor:pointer;">
+               <div class="sidebar-c"><img src="picture/paperplaneicon.png" width="16px">　送信済みメール</div></a></div>
           </div>
         </div>        
       <div class="container-2">
@@ -36,9 +42,17 @@
          </div>
         </div>
         <div class="mail">     
+          <div id="open2" style="display:none;clear:both;">
            <div class="mail-c"><input type="checkbox">　<img id="hp1" src="picture/favoriteicon.png" width="16px">　メールタイトル</div>
            <div class="mail-c"><input type="checkbox">　<img id="hp2" src="picture/favoriteicon.png" width="16px">　メールタイトル</div>
            <br><br>
+          </div>
+          <div id="open3" style="display:none;clear:both;">
+          <div class="mail-c">スター付きのメールはありません。</div>
+          </div>
+          <div id="open4" style="display:none;clear:both;">
+            <div class="mail-c">送信済みのメールはありません。</div>
+          </div>
         </div>
       </div>
     </div>  
